@@ -16,9 +16,9 @@
 <p>
    # Modo de uso:
     
-   1) Registrarse en backend-production-8c44.up.railway.app/api/auth/register (name, email y password).
-   2) Loguearse en backend-production-8c44.up.railway.app/api/auth/login (email y password) importante copiar el token.
-   3) ver usuario en backend-production-8c44.up.railway.app/api/auth/me.
+   1) <b>Registrarse en</b> backend-production-8c44.up.railway.app/api/auth/register (name, email y password).
+   2) <b>Loguearse en</b> backend-production-8c44.up.railway.app/api/auth/login (email y password) importante copiar el token.
+   3) <b>ver usuario en</b> backend-production-8c44.up.railway.app/api/auth/me.
    
    4) <b>Personas en </b>backend-production-8c44.up.railway.app/api/auth/peoples.
    5) <b>Persona con id en</b> backend-production-8c44.up.railway.app/api/auth/people/1.
