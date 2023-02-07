@@ -23,11 +23,11 @@
    4) <b>Personas en </b>backend-production-8c44.up.railway.app/api/auth/peoples.
    5) <b>Persona con id en</b> backend-production-8c44.up.railway.app/api/auth/people/1.
    
-   6) <b>planetas en </b>backend-production-8c44.up.railway.app/api/auth/peoples.
-   7) <b>planeta con id e</b>n backend-production-8c44.up.railway.app/api/auth/people/1.
+   6) <b>Planetas en </b>backend-production-8c44.up.railway.app/api/auth/peoples.
+   7) <b>Planeta con id e</b>n backend-production-8c44.up.railway.app/api/auth/people/1.
    
-   8) <b>vehiculos en</b> backend-production-8c44.up.railway.app/api/auth/peoples.
-   9) <b>vehiculo con id en</b> backend-production-8c44.up.railway.app/api/auth/people/1.
+   8) <b>Vehiculos en</b> backend-production-8c44.up.railway.app/api/auth/peoples.
+   9) <b>Vehiculo con id en</b> backend-production-8c44.up.railway.app/api/auth/people/1.
    
    10) <b>Salir del usuario con</b> backend-production-8c44.up.railway.app/api/auth/logout.
 </p>
