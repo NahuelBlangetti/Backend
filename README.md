@@ -13,7 +13,8 @@
    *Herramientas:* Se utilizo JWT para la autenticación, para la BBDD MySql y para realizar testing Postman.
 </p>
 <p>
-   *Modo de uso:*
+   ## Modo de uso:
+    
    1) Registrarse en backend-production-8c44.up.railway.app/api/auth/register (name, email y password).
    2) Loguearse en backend-production-8c44.up.railway.app/api/auth/login (email y password) importante copiar el token.
    3) ver usuario en backend-production-8c44.up.railway.app/api/auth/me.
