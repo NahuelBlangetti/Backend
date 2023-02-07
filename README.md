@@ -10,7 +10,8 @@
 ## Backend PHP Proyect "Star Wars" 
  
 <p>
-   *Herramientas:* Se utilizo JWT para la autenticación, para la BBDD MySql y para realizar testing Postman.
+   ## Herramientas: 
+        Se utilizo JWT para la autenticación, para la BBDD MySql y para realizar testing Postman.
 </p>
 <p>
    ## Modo de uso:
