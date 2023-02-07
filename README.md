@@ -11,7 +11,7 @@
  
 <p>
    # Herramientas: 
-        Se utilizo JWT para la autenticación, para la BBDD MySql y para realizar testing Postman.
+        Se utilizó JWT para la autenticación, para la BBDD MySql y para realizar testing Postman.
 </p>
 <p>
    # Modo de uso:
@@ -20,16 +20,16 @@
    2) Loguearse en backend-production-8c44.up.railway.app/api/auth/login (email y password) importante copiar el token.
    3) ver usuario en backend-production-8c44.up.railway.app/api/auth/me.
    
-   4) Personas en backend-production-8c44.up.railway.app/api/auth/peoples.
-   5) Persona con id en backend-production-8c44.up.railway.app/api/auth/people/1.
+   4) <b>Personas en </b>backend-production-8c44.up.railway.app/api/auth/peoples.
+   5) <b>Persona con id en</b> backend-production-8c44.up.railway.app/api/auth/people/1.
    
-   6) planetas en backend-production-8c44.up.railway.app/api/auth/peoples.
-   7) planeta con id en backend-production-8c44.up.railway.app/api/auth/people/1.
+   6) <b>planetas en </b>backend-production-8c44.up.railway.app/api/auth/peoples.
+   7) <b>planeta con id e</b>n backend-production-8c44.up.railway.app/api/auth/people/1.
    
-   8) vehiculos en backend-production-8c44.up.railway.app/api/auth/peoples.
-   9) vehiculo con id en backend-production-8c44.up.railway.app/api/auth/people/1.
+   8) <b>vehiculos en</b> backend-production-8c44.up.railway.app/api/auth/peoples.
+   9) <b>vehiculo con id en</b> backend-production-8c44.up.railway.app/api/auth/people/1.
    
-   10) Salir del usuario con backend-production-8c44.up.railway.app/api/auth/logout.
+   10) <b>Salir del usuario con</b> backend-production-8c44.up.railway.app/api/auth/logout.
 </p>
 
 <p>
