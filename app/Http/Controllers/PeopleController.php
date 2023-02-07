@@ -30,10 +30,10 @@ class PeopleController extends Controller
     public function PeopleId(Request $request)
     {
 
-        $response = Http::get('https://swapi.dev/api/people/{$request->id}/');
-
+        $response = Http::get('https://swapi.dev/api/people/' . $request->id);
+        
         return response()->json([
-            'people' => $response,
+            'people' => $response->json(),
         ]);
     }
 }

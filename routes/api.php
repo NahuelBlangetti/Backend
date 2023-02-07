@@ -31,7 +31,16 @@ Route::group([
     Route::post('refresh', 'App\Http\Controllers\AuthController@refresh');
     Route::post('me', 'App\Http\Controllers\AuthController@me');
     Route::post('register', 'App\Http\Controllers\AuthController@register');
-
+    
+    //Ṕeople
     Route::get('peoples', 'App\Http\Controllers\PeopleController@PeopleAll');
-    Route::get('people/{id}', 'App\Http\Controllers\PeopleController@PeopleId');
+    Route::get('people/{id?}', 'App\Http\Controllers\PeopleController@PeopleId');
+
+    //Planets
+    Route::get('planets', 'App\Http\Controllers\PlanetsController@PlanetsAll');
+    Route::get('planet/{id?}', 'App\Http\Controllers\PlanetsController@PlanetId');
+
+    //Vehicles
+    Route::get('vehicles', 'App\Http\Controllers\VehiclesController@VehiclesAll');
+    Route::get('vehicle/{id?}', 'App\Http\Controllers\VehiclesController@VehicleId');
 });
