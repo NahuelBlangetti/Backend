@@ -26,21 +26,25 @@ Route::group([
 
 ], function ($router) {
 
-    Route::post('login', 'App\Http\Controllers\AuthController@login');
-    Route::post('logout', 'App\Http\Controllers\AuthController@logout');
-    Route::post('refresh', 'App\Http\Controllers\AuthController@refresh');
-    Route::post('me', 'App\Http\Controllers\AuthController@me');
-    Route::post('register', 'App\Http\Controllers\AuthController@register');
+    Route::middleware('throttle:15 | 60,1')->group(function (){
+
+        //User
+        Route::post('login', 'App\Http\Controllers\AuthController@login');
+        Route::post('logout', 'App\Http\Controllers\AuthController@logout');
+        Route::post('refresh', 'App\Http\Controllers\AuthController@refresh');
+        Route::post('me', 'App\Http\Controllers\AuthController@me');
+        Route::post('register', 'App\Http\Controllers\AuthController@register');
+        
+        //Ṕeople
+        Route::get('peoples', 'App\Http\Controllers\PeopleController@PeopleAll');
+        Route::get('people/{id?}', 'App\Http\Controllers\PeopleController@PeopleId');
     
-    //Ṕeople
-    Route::get('peoples', 'App\Http\Controllers\PeopleController@PeopleAll');
-    Route::get('people/{id?}', 'App\Http\Controllers\PeopleController@PeopleId');
-
-    //Planets
-    Route::get('planets', 'App\Http\Controllers\PlanetsController@PlanetsAll');
-    Route::get('planet/{id?}', 'App\Http\Controllers\PlanetsController@PlanetId');
-
-    //Vehicles
-    Route::get('vehicles', 'App\Http\Controllers\VehiclesController@VehiclesAll');
-    Route::get('vehicle/{id?}', 'App\Http\Controllers\VehiclesController@VehicleId');
+        //Planets
+        Route::get('planets', 'App\Http\Controllers\PlanetsController@PlanetsAll');
+        Route::get('planet/{id?}', 'App\Http\Controllers\PlanetsController@PlanetId');
+    
+        //Vehicles
+        Route::get('vehicles', 'App\Http\Controllers\VehiclesController@VehiclesAll');
+        Route::get('vehicle/{id?}', 'App\Http\Controllers\VehiclesController@VehicleId');
+    });
 });
