@@ -21,13 +21,13 @@
    3) ver usuario en backend-production-8c44.up.railway.app/api/auth/me.
    
    4) Personas en backend-production-8c44.up.railway.app/api/auth/peoples.
-   5) Persona con id en backend-production-8c44.up.railway.app/api/auth/people/*number*.
+   5) Persona con id en backend-production-8c44.up.railway.app/api/auth/people/1.
    
    6) planetas en backend-production-8c44.up.railway.app/api/auth/peoples.
-   7) planeta con id en backend-production-8c44.up.railway.app/api/auth/people/*number*.
+   7) planeta con id en backend-production-8c44.up.railway.app/api/auth/people/1.
    
    8) vehiculos en backend-production-8c44.up.railway.app/api/auth/peoples.
-   9) vehiculo con id en backend-production-8c44.up.railway.app/api/auth/people/*number*.
+   9) vehiculo con id en backend-production-8c44.up.railway.app/api/auth/people/1.
    
    10) Salir del usuario con backend-production-8c44.up.railway.app/api/auth/logout.
 </p>
