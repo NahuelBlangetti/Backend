@@ -9,6 +9,9 @@
 
 ## Backend PHP Proyect "Star Wars" 
  
+ ##IMPORTANTE: ACTUALMENTE EN PAUSA, debido a que se quedo sin rango de tiempo en el Servidor Gratuito, (Estoy en busca de uno).
+ 
+ 
 <p>
    # Herramientas: 
         Se utilizó JWT para la autenticación, para la BBDD MySql y para realizar testing Postman.
